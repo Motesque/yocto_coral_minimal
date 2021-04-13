@@ -1,0 +1,16 @@
+diff --git a/arch/arm64/boot/dts/freescale/imx8mm.dtsi b/arch/arm64/boot/dts/freescale/imx8mm.dtsi
+index 6f1c3e1..288f199 100755
+--- a/arch/arm64/boot/dts/freescale/imx8mm.dtsi
++++ b/arch/arm64/boot/dts/freescale/imx8mm.dtsi
+@@ -1303,7 +1303,7 @@
+ 				 <&src IMX8MQ_RESET_PCIE_CTRL_APPS_TURNOFF>;
+ 			reset-names = "pciephy", "apps", "clkreq", "turnoff";
+ 			fsl,imx7d-pcie-phy = <&pcie_phy>;
+-			status = "disabled";
++			status = "okay";
+ 		};
+ 
+ 		gic: interrupt-controller@38800000 {
+-- 
+2.25.1
+

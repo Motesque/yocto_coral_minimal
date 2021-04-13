@@ -1,0 +1,16 @@
+diff --git a/arch/arm64/boot/dts/freescale/imx8mm-var-dart.dtsi b/arch/arm64/boot/dts/freescale/imx8mm-var-dart.dtsi
+index cbf6fb3..c78f1de 100644
+--- a/arch/arm64/boot/dts/freescale/imx8mm-var-dart.dtsi
++++ b/arch/arm64/boot/dts/freescale/imx8mm-var-dart.dtsi
+@@ -400,7 +400,7 @@
+ 		enable-gpios = <&gpio2 11 GPIO_ACTIVE_HIGH>;
+ 		pinctrl-names = "default";
+ 		pinctrl-0 = <&pinctrl_lvds>;
+-		status = "okay";
++		status = "disabled";
+ 
+ 		display-timings {
+ 			lvds {
+-- 
+2.25.1
+

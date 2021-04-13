@@ -1,0 +1,17 @@
+diff --git a/arch/arm64/boot/dts/freescale/imx8mm-var-dart.dtsi b/arch/arm64/boot/dts/freescale/imx8mm-var-dart.dtsi
+
+--- a/arch/arm64/boot/dts/freescale/imx8mm-var-dart.dtsi
++++ b/arch/arm64/boot/dts/freescale/imx8mm-var-dart.dtsi
+@@ -245,6 +245,12 @@
+ 		>;
+ 	};
+ 
++	pinctrl_sai2: sai2grp {
++		fsl,pins = <
++			MX8MM_IOMUXC_SAI2_RXC_GPIO4_IO22		0x16
++		>;
++	};
++
+ 	pinctrl_sai3: sai3grp {
+ 		fsl,pins = <
+ 			MX8MM_IOMUXC_SAI3_RXFS_SAI3_RX_SYNC		0xd6

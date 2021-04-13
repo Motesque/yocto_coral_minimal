@@ -1,0 +1,13 @@
+diff --git a/arch/arm64/boot/dts/freescale/imx8mm.dtsi b/arch/arm64/boot/dts/freescale/imx8mm.dtsi
+index 6f1c3e1db665..99d48b244d43 100755
+--- a/arch/arm64/boot/dts/freescale/imx8mm.dtsi
++++ b/arch/arm64/boot/dts/freescale/imx8mm.dtsi
+@@ -787,7 +787,7 @@
+ 					 <&clk IMX8MM_CLK_PWM2_ROOT>;
+ 				clock-names = "ipg", "per";
+ 				#pwm-cells = <2>;
+-				status = "disabled";
++				status = "okay";
+ 			};
+ 
+ 			pwm3: pwm@30680000 {
