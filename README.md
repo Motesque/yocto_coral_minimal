@@ -17,17 +17,18 @@ To avoid sudo on the host machine, use these commands
 ## Building the Yocto image
 * execute . ./build.sh on the host to create the docker image
 * execute . ./run.sh to run the container and open a terminal. 
-* In the container, use `. run_me_first.sh` and then `bitbake core-image-base`
+* In the container, use `. run_me_first.sh` and then `bitbake fsl-image-gui`
 
 
 ## Coral TPU Example
 The Coral examples are in:
 `cd /usr/share/edgetpu/examples`
 
-To run:
+To run the example:
 ```
 python3 classify_image.py \
     --model models/mobilenet_v2_1.0_224_inat_bird_quant_edgetpu.tflite \
     --label models/inat_bird_labels.txt \
     --image images/parrot.jpg
 ```
+
